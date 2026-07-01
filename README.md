@@ -1,4 +1,3 @@
-
 ```markdown
 # 🎮 Универсальный установщик модов Minecraft
 
@@ -39,7 +38,7 @@ Create your own mod installer in **5 minutes**. No coding required.
 
 **Шаг 2.** Открой командную строку (`Win+R` → `cmd`) и введи:
 ```
-pip install requests nuitka
+pip install requests nuitka zstandard
 ```
 
 **Шаг 3.** Скачай этот репозиторий: **Code** → **Download ZIP** → распакуй
@@ -57,7 +56,7 @@ ACCENT_HEX = "#ffcc00"             # Цвет
 
 **Шаг 6.** Собери EXE командой:
 ```
-nuitka --onefile --windows-disable-console --windows-icon-from-ico=icon.ico --lto=yes --output-dir=build main.py
+nuitka --onefile --windows-console-mode=disable --enable-plugin=tk-inter --windows-icon-from-ico=icon.ico --output-dir=build main.py
 ```
 
 **Шаг 7.** EXE готов в папке `build`. Раздавай!
@@ -70,7 +69,7 @@ nuitka --onefile --windows-disable-console --windows-icon-from-ico=icon.ico --lt
 
 **Step 2.** Open command prompt (`Win+R` → `cmd`) and run:
 ```
-pip install requests nuitka
+pip install requests nuitka zstandard
 ```
 
 **Step 3.** Download this repo: **Code** → **Download ZIP** → extract
@@ -88,7 +87,7 @@ ACCENT_HEX = "#ffcc00"             # Color
 
 **Step 6.** Build EXE:
 ```
-nuitka --onefile --windows-disable-console --windows-icon-from-ico=icon.ico --lto=yes --output-dir=build main.py
+nuitka --onefile --windows-console-mode=disable --enable-plugin=tk-inter --windows-icon-from-ico=icon.ico --output-dir=build main.py
 ```
 
 **Step 7.** EXE is in `build` folder. Share!
