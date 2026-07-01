@@ -1,0 +1,18 @@
+{
+    "mods": [
+        {
+            "name": "Example Mod",
+            "url": "https://cdn.modrinth.com/data/example/example-mod-1.0.0.jar"
+        },
+        {
+            "name": "Example Library",
+            "url": "https://cdn.modrinth.com/data/example/example-lib-1.0.0.jar"
+        },
+        {
+            "name": "Конфиги и настройки",
+            "url": "https://raw.githubusercontent.com/ТВОЙ_ЮЗЕР/ТВОЯ_РЕПА/main/configs.zip",
+            "type": "archive",
+            "extract_to": "root"
+        }
+    ]
+}
